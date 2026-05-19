@@ -8,14 +8,14 @@ nome_maior, maior_pontos, dataJogada = maior_pontuador()
 pygame.init()
 
 while True:
-    nome = input("Nickname:")
+    nome = input("Nickname: ")
     if len(nome) > 0: 
         break 
     else:
         print("Nome Inválido!")
         
 tamanho = (800,200)
-pygame.display.set_caption("Iron Man do Marcão")
+pygame.display.set_caption("Iron Man de pensamento computacional")
 icone  = pygame.image.load("assets/icone.png")
 pygame.display.set_icon(icone)
 relogio = pygame.time.Clock()
